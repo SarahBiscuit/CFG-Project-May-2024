@@ -1,0 +1,86 @@
+.bg-image { 
+    background-image: url('Puppy.kitten1.jpg'); 
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */  filter: grayscale(100%);
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 35vh;
+}
+
+#intro {
+    padding: 2rem;
+    margin: auto;
+    border: .1rem;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.pamper {
+    border: .1rem solid black;
+    padding: 6rem;
+    margin: auto;
+    width: 50rem;
+    height: 50rem;
+}
+
+img {  
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */  filter: grayscale(100%);
+}
+
+#heading {
+    font-size: 4rem;
+}
+
+.classWithPad { 
+    margin: 1.5rem; 
+    padding: 1.5rem; 
+}
+
+.enquiryForm {
+    border: .5rem black solid;
+    text-align: center;
+    width: 70rem;
+    color: black;
+    min-height: 7rem;
+    overflow: hidden;
+}
+
+    a:hover {
+        background-color: black;
+    }
+
+    button:hover {
+        background-color: black;
+    }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .pamper {
+        border: .1rem solid black;
+        width: 13rem;
+        height: 13rem;
+        padding: 1rem;
+        margin: auto;
+        }
+    
+        #heading {
+        font-size: 2rem;
+        }
+    
+        #intro {
+        font-size: 1rem;
+        }
+
+        .enquiryForm {
+            border: .5rem black solid;
+            text-align: center;
+            width: 70rem;
+            color: black;
+            min-height: 12rem;
+            overflow: hidden;
+        }
+    
+        }
+
+        
