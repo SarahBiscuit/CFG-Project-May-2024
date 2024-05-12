@@ -21,7 +21,7 @@ body {
 }
 
 .kitty-page-bg {
-    background-image: url('Assets/cat.jpg');
+    background-image: url('cat.jpg');
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */  filter: grayscale(100%);
     background-size: cover;
     background-position: center;
