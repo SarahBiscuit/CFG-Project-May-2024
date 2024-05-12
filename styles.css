@@ -1,3 +1,7 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .bg-image { 
     background-image: url('Puppy.kitten1.jpg'); 
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */  filter: grayscale(100%);
