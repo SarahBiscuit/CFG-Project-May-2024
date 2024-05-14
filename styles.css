@@ -87,9 +87,8 @@ body {
 }
 
 .cats {
-    width: 98%;
-    height: 48%;
-    border: 2px solid #FFFFFF;
+    width: 100%;
+    height: auto;
 }
 
     a:hover {
@@ -135,8 +134,9 @@ body {
             margin: auto;
             }
         }
-    
+        .card-img-top {
+            height: 250px; /* Adjust the height as needed */
+            object-fit: cover; /* Ensure the image covers the entire container */
         }
-
        
         
