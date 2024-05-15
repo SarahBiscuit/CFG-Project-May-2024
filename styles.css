@@ -38,14 +38,7 @@ body {
         height: 35vh;
 }
 
-.puppy-image {
-    position: relative;
-    width: 95%;
-    height: 48%;
-}
-
-
-#intro {
+.intro {
     padding: 2rem;
     margin: auto;
     border: .1rem;
@@ -126,17 +119,16 @@ body {
             overflow: hidden;
         }
 
-        .pamper {
-            border: .1rem solid black;
-            width: 13rem;
-            height: 13rem;
-            padding: 1rem;
-            margin: auto;
+        iframe {
+            max-width: 100%;
             }
-        }
+
+    }
+
         .card-img-top {
             height: 250px; /* Adjust the height as needed */
             object-fit: cover; /* Ensure the image covers the entire container */
         }
-       
+
+    
         
