@@ -101,6 +101,10 @@ body {
         background-color: black;
     }
 
+    .attributionText {
+        font-size: .8rem;
+    }
+
     @media only screen and (max-width: 768px) {
         /* For mobile phones: */
         #salon {
